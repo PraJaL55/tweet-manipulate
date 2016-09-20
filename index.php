@@ -23,9 +23,9 @@
 require_once('twitteroauth/OAuth.php');
 require_once('twitteroauth/twitteroauth.php');
 // define the consumer key and secet and callback
-define('CONSUMER_KEY', '3VaX61iD4XYWOJHezHuKXmiot');
-define('CONSUMER_SECRET', 'FOq9KMeNI4thopvZmWuqNborCJ223bmQkNJFW2OMySDocr12MJ');
-define('OAUTH_CALLBACK', 'http://justmessingaround.azurewebsites.net/');
+define('CONSUMER_KEY', 'YOUR_CONSUMER_KEY');
+define('CONSUMER_SECRET', 'YOUR_CONSUMER_SECRET_KEY');
+define('OAUTH_CALLBACK', 'YOUR_CALLBACK_URL');
 // start the session
 session_start();
 
